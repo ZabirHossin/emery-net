@@ -1,0 +1,913 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 3309px;
+    background-color: none;
+}
+
+.menu_bar {
+    width: 100%;
+    height: 66px;
+    background-color: #229E87;
+    display: flex;
+    
+}
+
+.menu_bar_blank {
+    width: 255px;
+    height: 66px;
+    background-color: none;
+}
+
+.menu_bar_one {
+    width: 1245px;
+    height: 66px;
+    background-color: none;
+    display: flex;
+}
+
+.logo_section {
+    width: 87px;
+    height: 24px;
+    background-color: none;
+    background-image: url('images/menu_bar_logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.menu_bar_section {
+    width: 1158px;
+    height: 66px;
+    background-color: none;
+}
+
+.menu_bar_section ul {
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.menu_bar_section ul li {
+    list-style-type: none;
+    float: left;
+}
+
+/* .menu_bar_section li a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 16px;
+    font-size: 16px;
+    font-weight: 500;   
+} */
+
+.Domains_a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 16px;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.Domains_a:hover {
+    color: #fff;
+    text-decoration: underline 2.5px solid #ffd98a;
+}
+
+.Email_a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 16px;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.Email_a:hover {
+    color: #fff;
+    text-decoration: underline 2.5px solid #ffd98a;
+}
+
+.About_a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 16px;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.About_a:hover {
+    color: #fff;
+    text-decoration: underline 2.5px solid #ffd98a;
+}
+
+.Blog_a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 16px;
+    font-size: 16px;
+    font-weight: 500;   
+}
+.Blog_a:hover {
+    color: #fff;
+    text-decoration: underline 2.5px solid #ffd98a;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.content {
+    width: 322px;
+    /* height: 270px; */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 2);
+    z-index: 11111111;
+}
+
+.content a {
+    color: #2B333B;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+
+.menu_bar_two {
+    width: 140px;
+    height: 66px;
+    background-color: none;
+}
+
+.check_down {
+    background: url('images/chevron-down-solid\ \(1\).svg');
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    background-position: right;
+}
+
+.menu_bar_two ul {
+    margin-top: 24px;
+    margin-left: 8px;
+}
+
+.menu_bar_two ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu_bar_two li a {
+    font-family: 'Inter', sans-serif;
+    color: #c0f1e8;
+    text-decoration: none;
+    padding:4px 7px;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.menu_bar_two li a:hover {
+    color: #fff;
+    text-decoration: underline 2.5px solid #ffd98a;
+}
+
+.image_section {
+    width: 100%;
+    height: 718px;
+    background-color: #229E87;
+    display: flex;
+}
+
+.text_section {
+    width: 682px;
+    height: 530px;
+    background-color: none;
+    margin-left: 250px;
+    margin-top: 188px;
+}
+.honer_realname {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.find_your {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.para_text_head {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+    margin-top: 20px;
+}
+
+.search_box_dg {
+    width: 682px;
+    height: 72px;
+    background-color: #F6F7F9;
+    margin-top: 30px;
+    display: flex;
+}
+
+.search_box_dg_wht_prt {
+    width: 407px;
+    height: 72px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 21px;
+    color: #636e77;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+}
+
+.search_box_dg_black_prt {
+    width: 265px;
+    height: 72px;
+    background-color: #2B333B;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}
+
+.enter_txt {
+    font-size: 20px;
+    color: #98938E;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/* .main_image_section {
+    width: 880px;
+    height: 680px;
+    background-color: none;
+    margin-left: 50px;
+    margin-top: 38px;
+} */
+
+
+
+.main_image_section {
+    width: 978px;
+    height: 750px;
+    background-color: none;
+    margin-left: 25px;
+    margin-top: -32px;
+    background-image: url('images/women_resize.png');
+}
+
+/* .main_image_edit {
+    margin-top: -70px;
+    margin-left: -23px;
+} */
+
+.three_box_section_head {
+    width: 100%;
+    height: 292px;
+    background-color: #F6F7F9;
+}
+
+.why_realname {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    padding-top: 128px;
+    margin-left: 250px;
+}
+
+.there_are_txt {
+    font-size: 20px;
+    color: #636e77;
+    font-family: 'Inter', sans-serif;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.three_box_section {
+    width: 100%;
+    height: 449px;
+    background-color: #F6F7F9;
+    display: flex;
+}
+
+.text_box_one {
+    width: 446px;
+    height: 243px;
+    background-color: white;
+    border: 2px solid #DDDDDE;
+    border-radius: 4px;
+    margin-left: 250px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.person_icon {
+    width: 50px;
+    height: 33px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.make_part {
+    width: 255px;
+    height: 190px;
+    margin-top: 50px;
+    background-color: none;
+    margin-left: 15px;
+}
+
+.make_it_txt {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.your_own_name_text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.text_box_two {
+    width: 446px;
+    height: 243px;
+    background-color: white;
+    border: 2px solid #DDDDDE;
+    border-radius: 4px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.shield_icon {
+    width: 50px;
+    height: 33px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.keep_part {
+    width: 260px;
+    height: 190px;
+    margin-top: 50px;
+    background-color: none;
+    margin-left: 15px;
+}
+
+.keep_it_txt {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.you_want_your_text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.text_box_three {
+    width: 446px;
+    height: 243px;
+    background-color: white;
+    border: 2px solid #DDDDDE;
+    border-radius: 4px;
+    display: flex;
+}
+
+.lock_icon {
+    width: 50px;
+    height: 33px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.lock_part {
+    width: 250px;
+    height: 190px;
+    margin-top: 50px;
+    background-color: none;
+    margin-left: 15px;
+}
+
+.lock_it_txt {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.get_ahead_and_text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.promotional_section {
+    width: 100%;
+    height: 668px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.email_add_box {
+    width: 682px;
+    height: 428px;
+    background-color: white;
+    border: 3px solid #EFF0F3;
+    border-radius: 4px;
+    margin-left: 250px;
+    margin-top: 122px;
+}
+
+.email_icon_design  {
+    width: 65px;
+    height: 43px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.Each_email_text {
+    width: 600px;
+    height: 38px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 45px;
+    font-size: 33px;
+    line-height: 1.2;
+    /* white-space: normal; */
+    /* word-wrap: break-word; */
+    color: #111;
+    font-weight: 700;
+}
+
+.dollar {
+    width: 600px;
+    height: 71px;
+    margin-left: 45px;
+    margin-top: 24px;
+    color: #229E87;
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: 'Sharp Sans', sans-serif;
+}
+
+.email_add_box_botom {
+    width: 682px;
+    height: 116px;
+    background-color: #F0F9F5;
+    margin-top: 57px;
+    padding-top: 35px;
+}
+
+.email_add_box_botom li {
+    list-style-type: none;
+    background: url('images/sign.svg');
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    color: #4D4C5C;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.simple_pricing_arrow {
+    width: 682px;
+    height: 428px;
+    background-color: none;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 122px;
+}
+
+.Simple_pricing_text {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 90px;
+}
+
+.Realnames_email_text {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #636e77;
+
+}
+
+.geting_email_section {
+    width: 100%;
+    height: 650px;
+    background-color: #CEE8E2;
+    display: flex;
+}
+
+.main_email_text {
+    width: 685px;
+    height: 650px;
+    margin-left: 250px;
+    background-color: none;
+}
+
+.Get_Realnames_text {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 225px;
+}
+
+.Snag_name_properties_text {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.main_picture_section {
+    width: 468px;
+    height: 405px;
+    margin-left: 65px;
+    margin-top: 120px;
+    background-color: none;
+    background-image: url('images/email_together_image-bb2ab5b15367722c4e16be1dff814a8dc56f3ef454a2f8d1caccde5f591f6c20.svg');
+}
+
+.footer_top {
+    width: 100%;
+    height: 278px;
+    background-color: #2b333b;
+}
+
+.footer_top_main {
+    width: 1395px;
+    height: 278px;
+    background-color: none;
+    margin-left: 255px;
+    display: flex;
+}
+
+.footer_top_main_one {
+    width: 480px;
+    height: 96px;
+    background-color: none;
+    margin-top: 80px;
+}
+
+.all_icon {
+    width: 480px;
+    height: 54px;
+    background-color: none;
+    margin-top: 15px;
+}
+
+.twiter_main {
+    width: 32px;
+    height: 32px;
+    background: #c4ccd4;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.twiter_icon_logo {
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+}
+
+.twiter_main:hover {
+    background-color: #fff;
+}
+
+.facebook_main {
+    width: 32px;
+    height: 32px;
+    background: #c4ccd4;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.facebook_icon_logo {
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+}
+
+.facebook_main:hover {
+    background-color: #fff;
+}
+
+.linkedin_main {
+    width: 32px;
+    height: 32px;
+    background: #c4ccd4;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.linkedin_icon_logo {
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+}
+
+.linkedin_main:hover {
+    background-color: #fff;
+}
+
+.tiktok_main {
+    width: 32px;
+    height: 32px;
+    background: #c4ccd4;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.tiktok_icon_logo {
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+}
+
+.tiktok_main:hover {
+    background-color: #fff;
+}
+
+.footer_top_main_two {
+    width: 242px;
+    height: 160px;
+    background-color: none;
+    margin-top: 85px;
+}
+
+.Products_text {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 14px;
+
+}
+
+.fototer_text_one {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_two {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_three {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_four {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_five {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_top_main_three {
+    width: 240px;
+    height: 160px;
+    background-color: none;
+    margin-top: 85px;
+}
+
+.Company_text {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 14px;
+
+}
+
+.fototer_text_six {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_seven {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_eight {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_nine {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_top_main_four {
+    width: 240px;
+    height: 160px;
+    background-color: none;
+    margin-top: 85px;
+}
+
+.Support_text {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 14px;
+
+}
+
+.fototer_text_ten {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_eleven {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_top_main_five {
+    width: 193px;
+    height: 160px;
+    background-color: none;
+    margin-top: 85px;
+}
+
+.Account_text {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 14px;
+
+}
+
+.fototer_text_twelve {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.fototer_text_therteen {
+    height: 9px;
+    font-size: 14px;
+    color: #c4ccd4;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_top_main a:hover {
+    color: #fff;
+}
+
+
+.footer_bottom {
+    width: 100%;
+    height: 101px;
+    background-color: #2b333b;
+}
+
+.footer_bottom_main {
+    width: 1395px;
+    height: 99px;
+    background-color: none;
+    margin-left: 255px;
+    border-top: 2px solid #414d59;
+    border-radius: 4px;
+    display: flex;
+}
+
+.footer_copyright {
+    font-family: 'Inter', sans-serif;
+    color: #c4ccd4;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 1010px;
+}
+
+.Terms_of_Service {
+    font-family: 'Inter', sans-serif;
+    color: #c4ccd4;
+    font-size: 14px;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.Privacy_Policy {
+    font-family: 'Inter', sans-serif;
+    color: #c4ccd4;
+    font-size: 14px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.footer_bottom_main a:hover {
+    color: #fff;
+}
+
